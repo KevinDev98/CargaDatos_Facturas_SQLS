@@ -56,7 +56,6 @@ namespace CargaDatos_Facturas
             {
                 int ColumnasHeader = dt.Columns.Count;
                 int columnasCarga = csv.Columns.Count;
-
                 // Validamos que las columnas estén iguales
                 if (columnasCarga > ColumnasHeader)
                     Console.WriteLine("El encabezado es incorecto. Le faltan campos");
@@ -118,9 +117,7 @@ namespace CargaDatos_Facturas
                 {
                     Console.WriteLine("No se ha encontrado el archivo");
                 }
-
                 Console.ReadLine();
-
             }
         }
     }
